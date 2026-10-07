@@ -1,0 +1,20 @@
+{
+  "baseline": "EXPERT-TRAINING-v0.2",
+  "status": "research-audited-not-yet-ios-validated",
+  "source_repository": "lvlaksim1/supervisor",
+  "source_files": {
+    "01-profession-model.md": "14b5c2389d000c34bd07c9445ed4818bcaec046a",
+    "02-diagnostics.md": "70f764571d53e86fbcc4d6088002f1cccffd4ed0",
+    "03-learning-program.md": "d93f10e3972ac6ca13c249251dea15e2918dacbc",
+    "04-learning-model.md": "9b90f8d10e537d64900c9e2319d6da6d2585e4f3",
+    "05-assessment-and-competence.md": "b06df9e0ac0055559b32dd3e883cb0fabb8f53bb",
+    "06-experience-cycle.md": "0dfe329463b07d99e60c1f1e70e2eebe18a08630",
+    "07-continuous-qualification.md": "600eb49044768ad15f5df6f12810a73570d2aa1f",
+    "08-normative-process.md": "d530e774c21cf8c9cf977a64965e876aa9ed2ca6"
+  },
+  "runtime_constraints": {
+    "long_running_mechanism": "PP-RM",
+    "durable_state": "GitHub",
+    "excluded": ["ND-RM", "ChatGPT Library"]
+  }
+}
