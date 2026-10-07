@@ -30,6 +30,18 @@ class ExpertCtlTests(unittest.TestCase):
             self.assertEqual(identity["expert_id"], "ios-expert")
             self.assertEqual(identity["specialization"], "iOS")
             self.assertIn(".context/expert/ENTRYPOINT.md", entrypoint.read_text(encoding="utf-8"))
+
+            expert_entrypoint = (root / ".context" / "expert" / "ENTRYPOINT.md").read_text(encoding="utf-8")
+            self.assertIn(".context/expert/EXECUTION_INVARIANTS.md", expert_entrypoint)
+
+            execution_invariants = (root / ".context" / "expert" / "EXECUTION_INVARIANTS.md").read_text(
+                encoding="utf-8"
+            )
+            self.assertIn("RULE_KNOWN", execution_invariants)
+            self.assertIn("RULE_APPLIED", execution_invariants)
+            self.assertIn("COMPLIANCE_CHECKED", execution_invariants)
+            self.assertIn("EXECUTION_INVARIANT_VIOLATION", execution_invariants)
+
             profile = (root / ".context" / "expert" / "PROFILE.md").read_text(encoding="utf-8")
             self.assertIn("ios-expert", profile)
             self.assertIn("iOS", profile)
