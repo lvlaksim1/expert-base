@@ -1,0 +1,15 @@
+{
+  "schema": "expert-base-provenance-v1",
+  "expert_base_version": "0.1.0-research",
+  "service_agent_base": {
+    "repository": "lvlaksim1/service-agent-base",
+    "commit": "c010bf8d93c5a3b7a35e3d45891f72df7488bf2f"
+  },
+  "expert_training": {
+    "repository": "lvlaksim1/supervisor",
+    "baseline": "EXPERT-TRAINING-v0.2",
+    "baseline_manifest_blob": "45ec46124b212a881fc9030bc9b094767a6994f6"
+  },
+  "created": "2026-10-07",
+  "status": "research"
+}
