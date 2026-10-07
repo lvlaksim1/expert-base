@@ -1,9 +1,9 @@
 {
   "schema": "expert-base-provenance-v1",
-  "expert_base_version": "0.1.2-research",
+  "expert_base_version": "0.1.3-research",
   "service_agent_base": {
     "repository": "lvlaksim1/service-agent-base",
-    "commit": "2a03aaf14fdd79612acefe8c5ac22600e5d3b57b"
+    "commit": "ce8106cb97c18e352bb87326563d8f04a5a1bfa3"
   },
   "expert_training": {
     "repository": "lvlaksim1/supervisor",
